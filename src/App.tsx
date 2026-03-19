@@ -1,7 +1,14 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 
 function App() {
-  return <div className="border">Hello</div>;
+  return (
+    <>
+      <Routes>
+        <Route path="/" element={<div className="">Home</div>} />
+      </Routes>
+    </>
+  );
 }
 
 export default App;
