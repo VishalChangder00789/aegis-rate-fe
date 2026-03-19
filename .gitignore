@@ -11,9 +11,7 @@ node_modules
 dist
 dist-ssr
 *.local
-reusable-project-context.md
-google-stitch-context-ui.md
-
+ai-contexts
 
 # Editor directories and files
 .vscode/*

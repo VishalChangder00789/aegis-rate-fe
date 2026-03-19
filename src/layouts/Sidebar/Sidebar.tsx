@@ -11,7 +11,7 @@ import { useNavigate } from "react-router-dom";
 
 const Sidebar: React.FC = () => {
   const navigate = useNavigate();
-  const [options, setOptions] = React.useState([
+  const [options] = React.useState([
     { name: "Dashboard", path: "/", icon: dashboardIcon },
     { name: "Services", path: "/services", icon: servicesIcon },
     {
