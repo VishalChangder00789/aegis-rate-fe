@@ -1,4 +1,3 @@
-import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Sidebar from "./layouts/Sidebar/Sidebar";
 import Navigation from "./layouts/Navigation/Navigation";
@@ -8,7 +7,7 @@ function App() {
   return (
     <div className="flex bg-[#111417] min-h-screen">
       <Sidebar />
-      <div className="flex flex-col ml-62.5 text-white">
+      <div className="flex flex-col ml-62.5 text-white w-full">
         <Navigation />
         <Main />
       </div>

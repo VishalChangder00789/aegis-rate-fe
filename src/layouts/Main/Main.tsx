@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 
 const Main: React.FC = () => {
   return (
-    <main>
+    <main className="flex-1 p-4">
       <Routes>
         <Route path="/" element={<div className="">Home</div>} />
       </Routes>
